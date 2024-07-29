@@ -1,0 +1,55 @@
+header {
+  background-image: url(../image/bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+header > nav {
+  background-color: white;
+}
+#about {
+  background-color: rgb(231, 238, 238);
+}
+
+.carousel-caption {
+  background-color: rgba(73, 73, 73, 0.322);
+  padding: 5px 10px;
+  font-family: "Raleway", cursive;
+}
+
+span.font {
+  font-family: "Raleway", cursive;
+  font-weight: bold;
+}
+
+table.table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: 10px auto;
+}
+table.table th {
+  background-color: rgba(26, 27, 27, 0.349);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 8px;
+  border-bottom: 2px solid black;
+}
+
+table.table td {
+  border: 1px solid black;
+  background-color: rgba(219, 255, 244, 0.757);
+  padding: 8px;
+}
+table.table tr:nth-child(even) td {
+  background-color: rgba(196, 248, 232, 0.757);
+}
+table.table tr:hover td {
+  background-color: rgba(185, 233, 230, 0.871);
+}
+#contact {
+  background-color: rgb(231, 238, 238);
+}
+.form {
+  background-color: rgb(161, 161, 161);
+}
